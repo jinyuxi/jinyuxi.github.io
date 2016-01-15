@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,7 +96,7 @@
 	        	width: 73%;
 	        	margin: 0 auto;
 	        	padding-bottom: 1rem;
-	        	font-weight: 100;border-bottom: 1px solid #eee;
+	        	font-weight: 100;
 	        }
 	        .btn{
         		color: #fff;
@@ -110,6 +111,22 @@
 			  	border: 1px solid linen;
 			  	border-radius: 6px;
 	        }
+	        hr{
+				width: 150px;display: inline-block;
+				vertical-align: middle;
+			 	height: 1px;border: 0;
+			}
+	        hr.soften {
+			    height: 1px;
+			    width: 400px;
+			    margin: 1rem auto 0;
+			    display: block;
+			    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1), rgba(0,0,0,0));
+			    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+			    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+			    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+			}
+
 	        
 		</style>
 	</head>
@@ -118,6 +135,7 @@
 		<img id="bg" alt="background" src="images/rainBg.jpg" >
 		<div id="main">
 			<h1>靳羽曦个人主页</h1>
+			<hr class="soften">
 			<a class="btn">欢迎来访</a>
 		</div>
 		<div id="cholder">

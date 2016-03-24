@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no"/>
 		<meta name="description" content="靳羽曦个人主页,UI高级设计师,交互设计">
 		<title>靳羽曦-个人主页</title>
-		<link rel="icon" href="images/y.ico">
+		<link rel="icon" href="img/y.ico">
 		<script src="js/rainyday.0.1.1.min.js" ></script>
 		<style type="text/css" >
 			* {
@@ -110,6 +110,11 @@
 			  	max-height: 3rem;
 			  	border: 1px solid linen;
 			  	border-radius: 6px;
+			  	text-decoration: none;
+	        }
+	        .btn:hover{
+	        	transition: background-color .4s;
+	        	background-color: #CC9966;
 	        }
 	        hr{
 				width: 150px;display: inline-block;
@@ -132,11 +137,11 @@
 	</head>
 
 	<body>
-		<img id="bg" alt="background" src="images/rainBg.jpg" >
+		<img id="bg" alt="background" src="img/rainBg.jpg" >
 		<div id="main">
-			<h1>靳羽曦个人主页</h1>
+			<h1>JinYuXi</h1>
 			<hr class="soften">
-			<a class="btn">欢迎来访</a>
+			<a href="main.html" class="btn">点击进入</a>
 		</div>
 		<div id="cholder">
 		    <canvas id="canvas" width="1920" height="979"></canvas>
@@ -169,7 +174,7 @@
 		            }
 		        };
 		        image.crossOrigin = 'anonymous';
-		        image.src = 'images/rainBg.jpg';
+		        image.src = 'img/rainBg.jpg';
 		    }
 		</script>
 	</body>

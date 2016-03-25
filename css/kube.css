@@ -274,7 +274,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;*/
   font-weight: bold;
   color: #000000;
   text-rendering: optimizeLegibility;
@@ -316,7 +316,7 @@ h5,
 h6,
 .h6 {
   font-size: 0.75em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 /* =Lead
 -----------------------------------------------------------------------------*/
@@ -621,7 +621,7 @@ table {
   empty-cells: show;
 }
 table caption {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0 1.0999999999999999em;
   color: rgba(0, 0, 0, 0.4);
   font-size: 12.75px;
@@ -1408,7 +1408,7 @@ input.input-smaller {
 }
 .navigation-toggle {
   display: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   position: relative;
   color: #0f0f0f;
   background-color: #ffffff;
@@ -2603,7 +2603,7 @@ input[type="submit"].btn-white.btn-outline.btn-active {
   color: #0f0f0f;
   text-align: center;
   font-weight: normal;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .label-outline {
   background: none;
@@ -3205,7 +3205,7 @@ ul.dropdown li.divider {
   float: right;
 }
 .upper {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 .list-flat {
   margin-left: 0;
